@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 #import "UIGestureRecognizer+ODBlocks.h"
-#import <ODXCore/ODAssociatedProperty.h>
+#import <ODX.Core/ODAssociatedProperty.h>
 
 @interface UIGestureRecognizerProxyTarget : NSObject
 @property (nonnull, nonatomic, copy) uigesturerecognizer_block_t block;

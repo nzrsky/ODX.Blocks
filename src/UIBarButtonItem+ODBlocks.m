@@ -23,7 +23,7 @@
 
 #import <Foundation/Foundation.h>
 #import "UIBarButtonItem+ODBlocks.h"
-#import <ODXCore/ODAssociatedProperty.h>
+#import <ODX.Core/ODAssociatedProperty.h>
 
 #if __BLOCKS__
 
