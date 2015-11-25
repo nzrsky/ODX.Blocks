@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA16A6371C05E96400394311 /* ODXBlocks_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2C30341C007E3300BD3CE5 /* ODXBlocks_Tests.m */; };
+		FA2C30351C007E3300BD3CE5 /* ODXBlocks_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2C30341C007E3300BD3CE5 /* ODXBlocks_Tests.m */; };
+		FA2C30371C007E3300BD3CE5 /* libODXBlocks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2C30221C007E1300BD3CE5 /* libODXBlocks.a */; };
+		FA7450211C060529008A9024 /* ODXBlocks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA16A61E1C05E8F700394311 /* ODXBlocks.h */; };
+		FA74502B1C06056B008A9024 /* ODXBlocks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA16A61E1C05E8F700394311 /* ODXBlocks.h */; };
+		FA74502C1C060620008A9024 /* libODXBlocks-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA16A5F91C0506DD00394311 /* libODXBlocks-OSX.a */; };
+		FA7450B21C06353B008A9024 /* NSNotificationCenter+ODBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7450A51C06353B008A9024 /* NSNotificationCenter+ODBlocks.m */; };
+		FA7450B31C06353B008A9024 /* NSTimer+ODBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7450A71C06353B008A9024 /* NSTimer+ODBlocks.m */; };
+		FA7450B41C06353B008A9024 /* UIActionSheet+ODBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7450A91C06353B008A9024 /* UIActionSheet+ODBlocks.m */; };
+		FA7450B51C06353B008A9024 /* UIAlertView+ODBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7450AB1C06353B008A9024 /* UIAlertView+ODBlocks.m */; };
+		FA7450B61C06353B008A9024 /* UIBarButtonItem+ODBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7450AD1C06353B008A9024 /* UIBarButtonItem+ODBlocks.m */; };
+		FA7450B71C06353B008A9024 /* UIButton+ODBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7450AF1C06353B008A9024 /* UIButton+ODBlocks.m */; };
+		FA7450B81C06353B008A9024 /* UIGestureRecognizer+ODBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7450B11C06353B008A9024 /* UIGestureRecognizer+ODBlocks.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA2C30381C007E3300BD3CE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C301A1C007E1300BD3CE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2C30211C007E1300BD3CE5;
+			remoteInfo = ODXBlocks;
+		};
+		FA7450171C060504008A9024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C301A1C007E1300BD3CE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA16A5F81C0506DD00394311;
+			remoteInfo = "ODXBlocks-OSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA2C30201C007E1300BD3CE5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				FA7450211C060529008A9024 /* ODXBlocks.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7450221C060545008A9024 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				FA74502B1C06056B008A9024 /* ODXBlocks.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA16A5F91C0506DD00394311 /* libODXBlocks-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libODXBlocks-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA16A61E1C05E8F700394311 /* ODXBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODXBlocks.h; sourceTree = "<group>"; };
+		FA16A6421C05E96400394311 /* ODXBlocks-OSX_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ODXBlocks-OSX_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2C30221C007E1300BD3CE5 /* libODXBlocks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libODXBlocks.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2C30321C007E3300BD3CE5 /* ODXBlocks_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ODXBlocks_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2C30341C007E3300BD3CE5 /* ODXBlocks_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODXBlocks_Tests.m; sourceTree = "<group>"; };
+		FA2C30361C007E3300BD3CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2C30411C0080F000BD3CE5 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = SOURCE_ROOT; };
+		FA2C30421C0080F000BD3CE5 /* ODX.Blocks.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ODX.Blocks.podspec; sourceTree = SOURCE_ROOT; };
+		FA2C30431C0080F000BD3CE5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		FA7450A41C06353B008A9024 /* NSNotificationCenter+ODBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+ODBlocks.h"; sourceTree = "<group>"; };
+		FA7450A51C06353B008A9024 /* NSNotificationCenter+ODBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+ODBlocks.m"; sourceTree = "<group>"; };
+		FA7450A61C06353B008A9024 /* NSTimer+ODBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+ODBlocks.h"; sourceTree = "<group>"; };
+		FA7450A71C06353B008A9024 /* NSTimer+ODBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+ODBlocks.m"; sourceTree = "<group>"; };
+		FA7450A81C06353B008A9024 /* UIActionSheet+ODBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+ODBlocks.h"; sourceTree = "<group>"; };
+		FA7450A91C06353B008A9024 /* UIActionSheet+ODBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+ODBlocks.m"; sourceTree = "<group>"; };
+		FA7450AA1C06353B008A9024 /* UIAlertView+ODBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+ODBlocks.h"; sourceTree = "<group>"; };
+		FA7450AB1C06353B008A9024 /* UIAlertView+ODBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+ODBlocks.m"; sourceTree = "<group>"; };
+		FA7450AC1C06353B008A9024 /* UIBarButtonItem+ODBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ODBlocks.h"; sourceTree = "<group>"; };
+		FA7450AD1C06353B008A9024 /* UIBarButtonItem+ODBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ODBlocks.m"; sourceTree = "<group>"; };
+		FA7450AE1C06353B008A9024 /* UIButton+ODBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ODBlocks.h"; sourceTree = "<group>"; };
+		FA7450AF1C06353B008A9024 /* UIButton+ODBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ODBlocks.m"; sourceTree = "<group>"; };
+		FA7450B01C06353B008A9024 /* UIGestureRecognizer+ODBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+ODBlocks.h"; sourceTree = "<group>"; };
+		FA7450B11C06353B008A9024 /* UIGestureRecognizer+ODBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+ODBlocks.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA16A5F61C0506DD00394311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA16A63A1C05E96400394311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA74502C1C060620008A9024 /* libODXBlocks-OSX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2C301F1C007E1300BD3CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2C302F1C007E3300BD3CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2C30371C007E3300BD3CE5 /* libODXBlocks.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA2C30191C007E1300BD3CE5 = {
+			isa = PBXGroup;
+			children = (
+				FA2C30411C0080F000BD3CE5 /* LICENSE.txt */,
+				FA2C30421C0080F000BD3CE5 /* ODX.Blocks.podspec */,
+				FA2C30431C0080F000BD3CE5 /* README.md */,
+				FA2C303D1C0080DA00BD3CE5 /* src */,
+				FA2C30331C007E3300BD3CE5 /* Tests */,
+				FA2C30231C007E1300BD3CE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA2C30231C007E1300BD3CE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C30221C007E1300BD3CE5 /* libODXBlocks.a */,
+				FA2C30321C007E3300BD3CE5 /* ODXBlocks_Tests.xctest */,
+				FA16A5F91C0506DD00394311 /* libODXBlocks-OSX.a */,
+				FA16A6421C05E96400394311 /* ODXBlocks-OSX_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA2C30331C007E3300BD3CE5 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C30341C007E3300BD3CE5 /* ODXBlocks_Tests.m */,
+				FA2C30361C007E3300BD3CE5 /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		FA2C303D1C0080DA00BD3CE5 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				FA16A61E1C05E8F700394311 /* ODXBlocks.h */,
+				FA7450A41C06353B008A9024 /* NSNotificationCenter+ODBlocks.h */,
+				FA7450A51C06353B008A9024 /* NSNotificationCenter+ODBlocks.m */,
+				FA7450A61C06353B008A9024 /* NSTimer+ODBlocks.h */,
+				FA7450A71C06353B008A9024 /* NSTimer+ODBlocks.m */,
+				FA7450A81C06353B008A9024 /* UIActionSheet+ODBlocks.h */,
+				FA7450A91C06353B008A9024 /* UIActionSheet+ODBlocks.m */,
+				FA7450AA1C06353B008A9024 /* UIAlertView+ODBlocks.h */,
+				FA7450AB1C06353B008A9024 /* UIAlertView+ODBlocks.m */,
+				FA7450AC1C06353B008A9024 /* UIBarButtonItem+ODBlocks.h */,
+				FA7450AD1C06353B008A9024 /* UIBarButtonItem+ODBlocks.m */,
+				FA7450AE1C06353B008A9024 /* UIButton+ODBlocks.h */,
+				FA7450AF1C06353B008A9024 /* UIButton+ODBlocks.m */,
+				FA7450B01C06353B008A9024 /* UIGestureRecognizer+ODBlocks.h */,
+				FA7450B11C06353B008A9024 /* UIGestureRecognizer+ODBlocks.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FA16A5F71C0506DD00394311 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FA16A5F81C0506DD00394311 /* ODXBlocks-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA16A5FF1C0506DE00394311 /* Build configuration list for PBXNativeTarget "ODXBlocks-OSX" */;
+			buildPhases = (
+				FA16A5F51C0506DD00394311 /* Sources */,
+				FA16A5F61C0506DD00394311 /* Frameworks */,
+				FA16A5F71C0506DD00394311 /* Headers */,
+				FA7450221C060545008A9024 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ODXBlocks-OSX";
+			productName = "ODXBlocks-OSX";
+			productReference = FA16A5F91C0506DD00394311 /* libODXBlocks-OSX.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FA16A6311C05E96400394311 /* ODXBlocks-OSX_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA16A63F1C05E96400394311 /* Build configuration list for PBXNativeTarget "ODXBlocks-OSX_Tests" */;
+			buildPhases = (
+				FA16A6341C05E96400394311 /* Sources */,
+				FA16A63A1C05E96400394311 /* Frameworks */,
+				FA16A63C1C05E96400394311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7450181C060504008A9024 /* PBXTargetDependency */,
+			);
+			name = "ODXBlocks-OSX_Tests";
+			productName = Tests;
+			productReference = FA16A6421C05E96400394311 /* ODXBlocks-OSX_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA2C30211C007E1300BD3CE5 /* ODXBlocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2C302B1C007E1300BD3CE5 /* Build configuration list for PBXNativeTarget "ODXBlocks" */;
+			buildPhases = (
+				FA2C301E1C007E1300BD3CE5 /* Sources */,
+				FA2C301F1C007E1300BD3CE5 /* Frameworks */,
+				FA2C30201C007E1300BD3CE5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ODXBlocks;
+			productName = ODXBlocks;
+			productReference = FA2C30221C007E1300BD3CE5 /* libODXBlocks.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FA2C30311C007E3300BD3CE5 /* ODXBlocks_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2C303A1C007E3300BD3CE5 /* Build configuration list for PBXNativeTarget "ODXBlocks_Tests" */;
+			buildPhases = (
+				FA2C302E1C007E3300BD3CE5 /* Sources */,
+				FA2C302F1C007E3300BD3CE5 /* Frameworks */,
+				FA2C30301C007E3300BD3CE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA2C30391C007E3300BD3CE5 /* PBXTargetDependency */,
+			);
+			name = ODXBlocks_Tests;
+			productName = Tests;
+			productReference = FA2C30321C007E3300BD3CE5 /* ODXBlocks_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA2C301A1C007E1300BD3CE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = AJR;
+				TargetAttributes = {
+					FA16A5F81C0506DD00394311 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					FA2C30211C007E1300BD3CE5 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					FA2C30311C007E3300BD3CE5 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = FA2C301D1C007E1300BD3CE5 /* Build configuration list for PBXProject "ODXBlocks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA2C30191C007E1300BD3CE5;
+			productRefGroup = FA2C30231C007E1300BD3CE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA2C30211C007E1300BD3CE5 /* ODXBlocks */,
+				FA16A5F81C0506DD00394311 /* ODXBlocks-OSX */,
+				FA2C30311C007E3300BD3CE5 /* ODXBlocks_Tests */,
+				FA16A6311C05E96400394311 /* ODXBlocks-OSX_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA16A63C1C05E96400394311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2C30301C007E3300BD3CE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA16A5F51C0506DD00394311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA16A6341C05E96400394311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA16A6371C05E96400394311 /* ODXBlocks_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2C301E1C007E1300BD3CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7450B81C06353B008A9024 /* UIGestureRecognizer+ODBlocks.m in Sources */,
+				FA7450B61C06353B008A9024 /* UIBarButtonItem+ODBlocks.m in Sources */,
+				FA7450B41C06353B008A9024 /* UIActionSheet+ODBlocks.m in Sources */,
+				FA7450B21C06353B008A9024 /* NSNotificationCenter+ODBlocks.m in Sources */,
+				FA7450B51C06353B008A9024 /* UIAlertView+ODBlocks.m in Sources */,
+				FA7450B71C06353B008A9024 /* UIButton+ODBlocks.m in Sources */,
+				FA7450B31C06353B008A9024 /* NSTimer+ODBlocks.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2C302E1C007E3300BD3CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2C30351C007E3300BD3CE5 /* ODXBlocks_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA2C30391C007E3300BD3CE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2C30211C007E1300BD3CE5 /* ODXBlocks */;
+			targetProxy = FA2C30381C007E3300BD3CE5 /* PBXContainerItemProxy */;
+		};
+		FA7450181C060504008A9024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA16A5F81C0506DD00394311 /* ODXBlocks-OSX */;
+			targetProxy = FA7450171C060504008A9024 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA16A6001C0506DE00394311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA16A6011C0506DE00394311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA16A6401C05E96400394311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nazaroff.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA16A6411C05E96400394311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nazaroff.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA2C30291C007E1300BD3CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA2C302A1C007E1300BD3CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA2C302C1C007E1300BD3CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			};
+			name = Debug;
+		};
+		FA2C302D1C007E1300BD3CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			};
+			name = Release;
+		};
+		FA2C303B1C007E3300BD3CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nazaroff.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA2C303C1C007E3300BD3CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nazaroff.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA16A5FF1C0506DE00394311 /* Build configuration list for PBXNativeTarget "ODXBlocks-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA16A6001C0506DE00394311 /* Debug */,
+				FA16A6011C0506DE00394311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA16A63F1C05E96400394311 /* Build configuration list for PBXNativeTarget "ODXBlocks-OSX_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA16A6401C05E96400394311 /* Debug */,
+				FA16A6411C05E96400394311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2C301D1C007E1300BD3CE5 /* Build configuration list for PBXProject "ODXBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2C30291C007E1300BD3CE5 /* Debug */,
+				FA2C302A1C007E1300BD3CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2C302B1C007E1300BD3CE5 /* Build configuration list for PBXNativeTarget "ODXBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2C302C1C007E1300BD3CE5 /* Debug */,
+				FA2C302D1C007E1300BD3CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2C303A1C007E3300BD3CE5 /* Build configuration list for PBXNativeTarget "ODXBlocks_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2C303B1C007E3300BD3CE5 /* Debug */,
+				FA2C303C1C007E3300BD3CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA2C301A1C007E1300BD3CE5 /* Project object */;
+}
