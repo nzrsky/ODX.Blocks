@@ -1,7 +1,7 @@
 //
 //  NSTimer+Blocks.h
 //
-// Copyright (c) 2015 Alexey Nazaroff, AJR
+// Copyright (c) 2010-2015 Alexey Nazaroff, AJR
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal

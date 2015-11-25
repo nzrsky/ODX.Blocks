@@ -1,7 +1,7 @@
 //
 // UIAlertView+ODBlocks.m
 //
-// Copyright (c) 2015 Alexey Nazaroff, AJR
+// Copyright (c) 2010-2015 Alexey Nazaroff, AJR
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -21,6 +21,11 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+#import <Foundation/Foundation.h>
+
+#if __BLOCKS__
+#if defined(__IPHONE_OS_VERSION_MIN_REQUIRED)
+
 #import <UIKit/UIKit.h>
 
 typedef void (^uialertview_block_t)(BOOL cancelled, NSInteger buttonIndex);
@@ -38,3 +43,6 @@ typedef void (^uialertview_block_t)(BOOL cancelled, NSInteger buttonIndex);
                             completion:(nullable uialertview_block_t)completion;
 
 @end
+
+#endif
+#endif

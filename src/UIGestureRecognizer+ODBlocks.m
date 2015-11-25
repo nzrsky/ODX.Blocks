@@ -1,6 +1,7 @@
+//
 //  UIGestureRecognizer+ODBlocks.m
 //
-// Copyright (c) 2015 Alexey Nazaroff, AJR
+// Copyright (c) 2010-2015 Alexey Nazaroff, AJR
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -22,6 +23,9 @@
 
 #import "UIGestureRecognizer+ODBlocks.h"
 #import <ODX.Core/ODAssociatedProperty.h>
+
+#if __BLOCKS__
+#if defined(__IPHONE_OS_VERSION_MIN_REQUIRED)
 
 @interface UIGestureRecognizerProxyTarget : NSObject
 @property (nonnull, nonatomic, copy) uigesturerecognizer_block_t block;
@@ -62,3 +66,7 @@
 }
 
 @end
+
+
+#endif
+#endif

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		182ABCEE1CE84AA26F44577E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C66365EC347E7DD3BC96F6D3 /* libPods.a */; };
+		182ABCEE1CE84AA26F44577E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C66365EC347E7DD3BC96F6D3 /* libPods.a */; settings = {ATTRIBUTES = (Weak, ); }; };
 		FA16A6371C05E96400394311 /* ODXBlocks_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2C30341C007E3300BD3CE5 /* ODXBlocks_Tests.m */; };
 		FA2C30351C007E3300BD3CE5 /* ODXBlocks_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2C30341C007E3300BD3CE5 /* ODXBlocks_Tests.m */; };
 		FA2C30371C007E3300BD3CE5 /* libODXBlocks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2C30221C007E1300BD3CE5 /* libODXBlocks.a */; };
@@ -21,6 +21,20 @@
 		FA7450B61C06353B008A9024 /* UIBarButtonItem+ODBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7450AD1C06353B008A9024 /* UIBarButtonItem+ODBlocks.m */; };
 		FA7450B71C06353B008A9024 /* UIButton+ODBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7450AF1C06353B008A9024 /* UIButton+ODBlocks.m */; };
 		FA7450B81C06353B008A9024 /* UIGestureRecognizer+ODBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7450B11C06353B008A9024 /* UIGestureRecognizer+ODBlocks.m */; };
+		FA7450D81C063B99008A9024 /* NSNotificationCenter+ODBlocks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA7450A41C06353B008A9024 /* NSNotificationCenter+ODBlocks.h */; };
+		FA7450D91C063B99008A9024 /* NSTimer+ODBlocks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA7450A61C06353B008A9024 /* NSTimer+ODBlocks.h */; };
+		FA7450DA1C063B99008A9024 /* UIActionSheet+ODBlocks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA7450A81C06353B008A9024 /* UIActionSheet+ODBlocks.h */; };
+		FA7450DB1C063B99008A9024 /* UIAlertView+ODBlocks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA7450AA1C06353B008A9024 /* UIAlertView+ODBlocks.h */; };
+		FA7450DC1C063B99008A9024 /* UIBarButtonItem+ODBlocks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA7450AC1C06353B008A9024 /* UIBarButtonItem+ODBlocks.h */; };
+		FA7450DD1C063B99008A9024 /* UIButton+ODBlocks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA7450AE1C06353B008A9024 /* UIButton+ODBlocks.h */; };
+		FA7450DE1C063B99008A9024 /* UIGestureRecognizer+ODBlocks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA7450B01C06353B008A9024 /* UIGestureRecognizer+ODBlocks.h */; };
+		FA7450DF1C063BA4008A9024 /* NSNotificationCenter+ODBlocks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA7450A41C06353B008A9024 /* NSNotificationCenter+ODBlocks.h */; };
+		FA7450E01C063BA4008A9024 /* NSTimer+ODBlocks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA7450A61C06353B008A9024 /* NSTimer+ODBlocks.h */; };
+		FA7450E11C063BA4008A9024 /* UIActionSheet+ODBlocks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA7450A81C06353B008A9024 /* UIActionSheet+ODBlocks.h */; };
+		FA7450E21C063BA4008A9024 /* UIAlertView+ODBlocks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA7450AA1C06353B008A9024 /* UIAlertView+ODBlocks.h */; };
+		FA7450E31C063BA4008A9024 /* UIBarButtonItem+ODBlocks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA7450AC1C06353B008A9024 /* UIBarButtonItem+ODBlocks.h */; };
+		FA7450E41C063BA4008A9024 /* UIButton+ODBlocks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA7450AE1C06353B008A9024 /* UIButton+ODBlocks.h */; };
+		FA7450E51C063BA4008A9024 /* UIGestureRecognizer+ODBlocks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA7450B01C06353B008A9024 /* UIGestureRecognizer+ODBlocks.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,9 +58,16 @@
 		FA2C30201C007E1300BD3CE5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
+			dstPath = include/ODX.Blocks;
 			dstSubfolderSpec = 16;
 			files = (
+				FA7450D81C063B99008A9024 /* NSNotificationCenter+ODBlocks.h in CopyFiles */,
+				FA7450D91C063B99008A9024 /* NSTimer+ODBlocks.h in CopyFiles */,
+				FA7450DA1C063B99008A9024 /* UIActionSheet+ODBlocks.h in CopyFiles */,
+				FA7450DB1C063B99008A9024 /* UIAlertView+ODBlocks.h in CopyFiles */,
+				FA7450DC1C063B99008A9024 /* UIBarButtonItem+ODBlocks.h in CopyFiles */,
+				FA7450DD1C063B99008A9024 /* UIButton+ODBlocks.h in CopyFiles */,
+				FA7450DE1C063B99008A9024 /* UIGestureRecognizer+ODBlocks.h in CopyFiles */,
 				FA7450211C060529008A9024 /* ODXBlocks.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,9 +75,16 @@
 		FA7450221C060545008A9024 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
+			dstPath = include/ODX.Blocks;
 			dstSubfolderSpec = 16;
 			files = (
+				FA7450DF1C063BA4008A9024 /* NSNotificationCenter+ODBlocks.h in CopyFiles */,
+				FA7450E01C063BA4008A9024 /* NSTimer+ODBlocks.h in CopyFiles */,
+				FA7450E11C063BA4008A9024 /* UIActionSheet+ODBlocks.h in CopyFiles */,
+				FA7450E21C063BA4008A9024 /* UIAlertView+ODBlocks.h in CopyFiles */,
+				FA7450E31C063BA4008A9024 /* UIBarButtonItem+ODBlocks.h in CopyFiles */,
+				FA7450E41C063BA4008A9024 /* UIButton+ODBlocks.h in CopyFiles */,
+				FA7450E51C063BA4008A9024 /* UIGestureRecognizer+ODBlocks.h in CopyFiles */,
 				FA74502B1C06056B008A9024 /* ODXBlocks.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -519,7 +547,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -556,7 +585,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -568,6 +598,7 @@
 			baseConfigurationReference = C7EF33F46F715221F35F660A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -580,6 +611,7 @@
 			baseConfigurationReference = BC8D7B7318B2C218CB3F3EC2 /* Pods.release.xcconfig */;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

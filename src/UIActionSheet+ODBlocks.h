@@ -1,7 +1,7 @@
 //
 // UIActionSheet+ODBlocks.m
 //
-// Copyright (c) 2015 Alexey Nazaroff, AJR
+// Copyright (c) 2010-2015 Alexey Nazaroff, AJR
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -21,6 +21,11 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+#import <Foundation/Foundation.h>
+
+#if __BLOCKS__
+#if defined(__IPHONE_OS_VERSION_MIN_REQUIRED)
+
 #import <UIKit/UIKit.h>
 
 typedef void (^uiactionsheet_block_t)(BOOL cancelled, NSInteger buttonIndex);
@@ -34,3 +39,7 @@ typedef void (^uiactionsheet_block_t)(BOOL cancelled, NSInteger buttonIndex);
                     otherButtonTitles:(nullable NSString *)otherButtonTitles, ... NS_REQUIRES_NIL_TERMINATION;
 
 @end
+
+#elif defined(__MAC_OS_X_VERSION_MIN_REQUIRED)
+#endif
+#endif

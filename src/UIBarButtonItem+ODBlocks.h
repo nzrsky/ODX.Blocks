@@ -1,7 +1,7 @@
 //
 //  UIBarButtonItem+ODBlocks.h
 //
-// Copyright (c) 2015 Alexey Nazaroff, AJR
+// Copyright (c) 2010-2015 Alexey Nazaroff, AJR
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -21,9 +21,12 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 #if __BLOCKS__
+#if defined(__IPHONE_OS_VERSION_MIN_REQUIRED)
+
+#import <UIKit/UIKit.h>
 
 typedef void (^uibarbuttonitem_block_t)(UIBarButtonItem *item);
 
@@ -34,4 +37,5 @@ typedef void (^uibarbuttonitem_block_t)(UIBarButtonItem *item);
 + (instancetype)itemWithCustomView:(UIView *)customView action:(uibarbuttonitem_block_t)action;
 @end
 
+#endif
 #endif
