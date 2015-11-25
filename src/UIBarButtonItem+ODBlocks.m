@@ -25,7 +25,7 @@
 #import <ODX.Core/ODAssociatedProperty.h>
 
 #if __BLOCKS__
-#if defined(__IPHONE_OS_VERSION_MIN_REQUIRED)
+#if defined(__IPHONE_OS_VERSION_MIN_REQUIRED) && !defined(__WATCH_OS_VERSION_MIN_REQUIRED)
 
 @implementation UIBarButtonItem (OD_Blocks)
 @synthesizing_associatedRetainProperty(uibarbuttonitem_block_t, od_action, setOd_action)

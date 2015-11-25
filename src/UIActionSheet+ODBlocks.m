@@ -26,7 +26,7 @@
 
 #if __BLOCKS__
 
-#if defined(__IPHONE_OS_VERSION_MIN_REQUIRED)
+#if defined(__IPHONE_OS_VERSION_MIN_REQUIRED) && !defined(__WATCH_OS_VERSION_MIN_REQUIRED)
 
 @interface UIActionSheet () <UIActionSheetDelegate>
 @end

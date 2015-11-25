@@ -35,6 +35,20 @@
 		FA7450E31C063BA4008A9024 /* UIBarButtonItem+ODBlocks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA7450AC1C06353B008A9024 /* UIBarButtonItem+ODBlocks.h */; };
 		FA7450E41C063BA4008A9024 /* UIButton+ODBlocks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA7450AE1C06353B008A9024 /* UIButton+ODBlocks.h */; };
 		FA7450E51C063BA4008A9024 /* UIGestureRecognizer+ODBlocks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA7450B01C06353B008A9024 /* UIGestureRecognizer+ODBlocks.h */; };
+		FA74512A1C064904008A9024 /* NSNotificationCenter+ODBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7450A51C06353B008A9024 /* NSNotificationCenter+ODBlocks.m */; };
+		FA74512B1C064904008A9024 /* NSTimer+ODBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7450A71C06353B008A9024 /* NSTimer+ODBlocks.m */; };
+		FA74512C1C064904008A9024 /* UIActionSheet+ODBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7450A91C06353B008A9024 /* UIActionSheet+ODBlocks.m */; };
+		FA74512D1C064904008A9024 /* UIAlertView+ODBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7450AB1C06353B008A9024 /* UIAlertView+ODBlocks.m */; };
+		FA74512E1C064904008A9024 /* UIBarButtonItem+ODBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7450AD1C06353B008A9024 /* UIBarButtonItem+ODBlocks.m */; };
+		FA74512F1C064904008A9024 /* UIButton+ODBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7450AF1C06353B008A9024 /* UIButton+ODBlocks.m */; };
+		FA7451301C064904008A9024 /* UIGestureRecognizer+ODBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7450B11C06353B008A9024 /* UIGestureRecognizer+ODBlocks.m */; };
+		FA7451311C064904008A9024 /* NSNotificationCenter+ODBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7450A51C06353B008A9024 /* NSNotificationCenter+ODBlocks.m */; };
+		FA7451321C064904008A9024 /* NSTimer+ODBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7450A71C06353B008A9024 /* NSTimer+ODBlocks.m */; };
+		FA7451331C064904008A9024 /* UIActionSheet+ODBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7450A91C06353B008A9024 /* UIActionSheet+ODBlocks.m */; };
+		FA7451341C064904008A9024 /* UIAlertView+ODBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7450AB1C06353B008A9024 /* UIAlertView+ODBlocks.m */; };
+		FA7451351C064904008A9024 /* UIBarButtonItem+ODBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7450AD1C06353B008A9024 /* UIBarButtonItem+ODBlocks.m */; };
+		FA7451361C064904008A9024 /* UIButton+ODBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7450AF1C06353B008A9024 /* UIButton+ODBlocks.m */; };
+		FA7451371C064904008A9024 /* UIGestureRecognizer+ODBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7450B11C06353B008A9024 /* UIGestureRecognizer+ODBlocks.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +103,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA74511F1C0648C7008A9024 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -119,6 +142,7 @@
 		FA7450AF1C06353B008A9024 /* UIButton+ODBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ODBlocks.m"; sourceTree = "<group>"; };
 		FA7450B01C06353B008A9024 /* UIGestureRecognizer+ODBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+ODBlocks.h"; sourceTree = "<group>"; };
 		FA7450B11C06353B008A9024 /* UIGestureRecognizer+ODBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+ODBlocks.m"; sourceTree = "<group>"; };
+		FA7451211C0648C7008A9024 /* libODXBlocks-WatchOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libODXBlocks-WatchOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +174,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA2C30371C007E3300BD3CE5 /* libODXBlocks.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA74511E1C0648C7008A9024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +225,7 @@
 				FA2C30321C007E3300BD3CE5 /* ODXBlocks_Tests.xctest */,
 				FA16A5F91C0506DD00394311 /* libODXBlocks-OSX.a */,
 				FA16A6421C05E96400394311 /* ODXBlocks-OSX_Tests.xctest */,
+				FA7451211C0648C7008A9024 /* libODXBlocks-WatchOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -315,6 +347,23 @@
 			productReference = FA2C30321C007E3300BD3CE5 /* ODXBlocks_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FA7451201C0648C7008A9024 /* ODXBlocks-WatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7451271C0648C7008A9024 /* Build configuration list for PBXNativeTarget "ODXBlocks-WatchOS" */;
+			buildPhases = (
+				FA74511D1C0648C7008A9024 /* Sources */,
+				FA74511E1C0648C7008A9024 /* Frameworks */,
+				FA74511F1C0648C7008A9024 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ODXBlocks-WatchOS";
+			productName = "ODXBlocks-WatchOS";
+			productReference = FA7451211C0648C7008A9024 /* libODXBlocks-WatchOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -333,6 +382,9 @@
 					FA2C30311C007E3300BD3CE5 = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
+					FA7451201C0648C7008A9024 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
 				};
 			};
 			buildConfigurationList = FA2C301D1C007E1300BD3CE5 /* Build configuration list for PBXProject "ODXBlocks" */;
@@ -349,6 +401,7 @@
 			targets = (
 				FA2C30211C007E1300BD3CE5 /* ODXBlocks */,
 				FA16A5F81C0506DD00394311 /* ODXBlocks-OSX */,
+				FA7451201C0648C7008A9024 /* ODXBlocks-WatchOS */,
 				FA2C30311C007E3300BD3CE5 /* ODXBlocks_Tests */,
 				FA16A6311C05E96400394311 /* ODXBlocks-OSX_Tests */,
 			);
@@ -410,6 +463,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7451301C064904008A9024 /* UIGestureRecognizer+ODBlocks.m in Sources */,
+				FA74512E1C064904008A9024 /* UIBarButtonItem+ODBlocks.m in Sources */,
+				FA74512C1C064904008A9024 /* UIActionSheet+ODBlocks.m in Sources */,
+				FA74512A1C064904008A9024 /* NSNotificationCenter+ODBlocks.m in Sources */,
+				FA74512D1C064904008A9024 /* UIAlertView+ODBlocks.m in Sources */,
+				FA74512F1C064904008A9024 /* UIButton+ODBlocks.m in Sources */,
+				FA74512B1C064904008A9024 /* NSTimer+ODBlocks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +500,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA2C30351C007E3300BD3CE5 /* ODXBlocks_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA74511D1C0648C7008A9024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7451371C064904008A9024 /* UIGestureRecognizer+ODBlocks.m in Sources */,
+				FA7451351C064904008A9024 /* UIBarButtonItem+ODBlocks.m in Sources */,
+				FA7451331C064904008A9024 /* UIActionSheet+ODBlocks.m in Sources */,
+				FA7451311C064904008A9024 /* NSNotificationCenter+ODBlocks.m in Sources */,
+				FA7451341C064904008A9024 /* UIAlertView+ODBlocks.m in Sources */,
+				FA7451361C064904008A9024 /* UIButton+ODBlocks.m in Sources */,
+				FA7451321C064904008A9024 /* NSTimer+ODBlocks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,6 +715,28 @@
 			};
 			name = Release;
 		};
+		FA7451281C0648C7008A9024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		FA7451291C0648C7008A9024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -688,6 +784,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		FA7451271C0648C7008A9024 /* Build configuration list for PBXNativeTarget "ODXBlocks-WatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7451281C0648C7008A9024 /* Debug */,
+				FA7451291C0648C7008A9024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

@@ -25,7 +25,7 @@
 #import <ODX.Core/ODAssociatedProperty.h>
 
 #if __BLOCKS__
-#if defined(__IPHONE_OS_VERSION_MIN_REQUIRED)
+#if defined(__IPHONE_OS_VERSION_MIN_REQUIRED) && !defined(__WATCH_OS_VERSION_MIN_REQUIRED)
 
 @interface UIGestureRecognizerProxyTarget : NSObject
 @property (nonnull, nonatomic, copy) uigesturerecognizer_block_t block;
