@@ -14,6 +14,7 @@ ODX.Blocks is utility classes for working with Objective-C blocks.
 
 ## Installation
 
+### CocoaPods
 ODX.Blocks is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
