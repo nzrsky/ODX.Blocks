@@ -66,6 +66,11 @@
     }
 }
 
+- (void)od_addCompletionBlock:(nullable uiactionsheet_block_t)completion {
+    self.od_completionBlock = completion;
+    self.delegate = self;
+}
+
 @end
 
 #endif

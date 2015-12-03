@@ -38,6 +38,7 @@ typedef void (^uiactionsheet_block_t)(BOOL cancelled, NSInteger buttonIndex);
                destructiveButtonTitle:(nullable NSString *)destructiveButtonTitle
                     otherButtonTitles:(nullable NSString *)otherButtonTitles, ... NS_REQUIRES_NIL_TERMINATION;
 
+- (void)od_addCompletionBlock:(nullable uiactionsheet_block_t)completion;
 @end
 
 #elif defined(__MAC_OS_X_VERSION_MIN_REQUIRED)
