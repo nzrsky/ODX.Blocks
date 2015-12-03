@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ODX.Blocks"
-  s.version      = "1.5.0"
+  s.version      = "1.5.1"
   s.summary      = "Utility classes for working with Objective-C blocks."
   s.homepage     = "https://github.com/Rogaven/ODX.Blocks"
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
