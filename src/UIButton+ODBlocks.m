@@ -41,7 +41,7 @@
 
 @end
 
-@implementation UIButton (OD_Blocks)
+@implementation UIButton (ODXBlocks)
 @synthesizing_associatedRetainProperty(NSMutableSet *, od_targetsSet, setOd_targetsSet)
 
 - (void)od_addBlock:(nonnull uibutton_block_t)block forControlEvents:(UIControlEvents)controlEvents {

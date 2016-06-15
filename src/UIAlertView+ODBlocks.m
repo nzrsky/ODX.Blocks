@@ -30,7 +30,7 @@
 @interface UIAlertView () <UIAlertViewDelegate>
 @end
 
-@implementation UIAlertView (OD_Blocks)
+@implementation UIAlertView (ODXBlocks)
 @synthesizing_associatedCopyProperty(uialertview_block_t, od_completionBlock, setOd_completionBlock)
 
 - (nonnull instancetype)initWithTitle:(nullable NSString *)title

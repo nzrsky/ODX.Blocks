@@ -30,7 +30,7 @@
 
 typedef void (^uialertview_block_t)(BOOL cancelled, NSInteger buttonIndex);
 
-@interface UIAlertView (OD_Blocks)
+@interface UIAlertView (ODXBlocks)
 
 - (nonnull instancetype)initWithTitle:(nullable NSString *)title
                               message:(nullable NSString *)message

@@ -41,7 +41,7 @@
 
 @end
 
-@implementation UIGestureRecognizer (OD_Blocks)
+@implementation UIGestureRecognizer (ODXBlocks)
 @synthesizing_associatedRetainProperty(NSMutableSet *, od_targetsSet, setOd_targetsSet)
 
 - (nonnull instancetype)initWithBlock:(nonnull uigesturerecognizer_block_t)block {

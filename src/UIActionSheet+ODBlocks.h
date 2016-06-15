@@ -30,7 +30,7 @@
 
 typedef void (^uiactionsheet_block_t)(BOOL cancelled, NSInteger buttonIndex);
 
-@interface UIActionSheet (OD_Blocks)
+@interface UIActionSheet (ODXBlocks)
 
 - (nonnull instancetype)initWithTitle:(nullable NSString *)title
                            completion:(nullable uiactionsheet_block_t)completion

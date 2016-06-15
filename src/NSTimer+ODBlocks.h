@@ -27,7 +27,7 @@
 
 typedef void (^nstimer_block_t)(NSTimer *timer);
 
-@interface NSTimer (OD_Blocks)
+@interface NSTimer (ODXBlocks)
 + (instancetype)scheduledTimerWithTimeInterval:(NSTimeInterval)interval block:(nstimer_block_t)block repeats:(BOOL)repeats;
 + (instancetype)timerWithTimeInterval:(NSTimeInterval)timeInterval block:(nstimer_block_t)block repeats:(BOOL)repeats;
 @end

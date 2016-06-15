@@ -31,7 +31,7 @@
 @interface UIActionSheet () <UIActionSheetDelegate>
 @end
 
-@implementation UIActionSheet (OD_Blocks)
+@implementation UIActionSheet (ODXBlocks)
 @synthesizing_associatedCopyProperty(uiactionsheet_block_t, od_completionBlock, setOd_completionBlock)
 
 - (nonnull instancetype)initWithTitle:(nullable NSString *)title

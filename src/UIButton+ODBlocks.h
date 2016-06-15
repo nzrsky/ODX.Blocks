@@ -30,7 +30,7 @@
 
 typedef void (^uibutton_block_t)(UIButton * _Nonnull button);
 
-@interface UIButton (OD_Blocks)
+@interface UIButton (ODXBlocks)
 - (void)od_addBlock:(nonnull uibutton_block_t)block forControlEvents:(UIControlEvents)controlEvents;
 @end
 

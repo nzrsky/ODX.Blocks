@@ -25,7 +25,7 @@
 
 #if __BLOCKS__
 
-@implementation NSNotificationCenter (OD_Blocks)
+@implementation NSNotificationCenter (ODXBlocks)
 
 - (nonnull id<NSObject>)od_addObserverForName:(nonnull NSString *)name object:(nullable id)obj usingBlock:(nonnull void (^)(NSNotification * _Nonnull))block {
     return [self addObserverForName:name object:obj queue:[NSOperationQueue mainQueue] usingBlock:block];

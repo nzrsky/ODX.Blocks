@@ -30,7 +30,7 @@
 
 typedef void (^uibarbuttonitem_block_t)(UIBarButtonItem *item);
 
-@interface UIBarButtonItem (OD_Blocks)
+@interface UIBarButtonItem (ODXBlocks)
 + (instancetype)itemWithImage:(UIImage *)img action:(uibarbuttonitem_block_t)action;
 + (instancetype)itemWithTitle:(NSString *)title action:(uibarbuttonitem_block_t)action;
 + (instancetype)itemWithSystemType:(UIBarButtonSystemItem)systemItem action:(uibarbuttonitem_block_t)action;

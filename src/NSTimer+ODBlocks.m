@@ -25,7 +25,7 @@
 
 #if __BLOCKS__
 
-@implementation NSTimer (OD_Blocks)
+@implementation NSTimer (ODXBlocks)
 
 + (id)scheduledTimerWithTimeInterval:(NSTimeInterval)interval block:(nstimer_block_t)block repeats:(BOOL)repeats {
     NSParameterAssert(block != nil);

@@ -27,7 +27,7 @@
 #if __BLOCKS__
 #if defined(__IPHONE_OS_VERSION_MIN_REQUIRED) && !defined(__WATCH_OS_VERSION_MIN_REQUIRED)
 
-@implementation UIBarButtonItem (OD_Blocks)
+@implementation UIBarButtonItem (ODXBlocks)
 @synthesizing_associatedRetainProperty(uibarbuttonitem_block_t, od_action, setOd_action)
 
 + (instancetype)itemWithImage:(UIImage *)img action:(uibarbuttonitem_block_t)action {

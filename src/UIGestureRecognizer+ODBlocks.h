@@ -30,7 +30,7 @@
 
 typedef void (^uigesturerecognizer_block_t)(UIGestureRecognizer * _Nonnull recognizer);
 
-@interface UIGestureRecognizer (OD_Blocks)
+@interface UIGestureRecognizer (ODXBlocks)
 - (nonnull instancetype)initWithBlock:(nonnull uigesturerecognizer_block_t)block;
 - (void)addBlock:(nonnull uigesturerecognizer_block_t)block;
 @end
