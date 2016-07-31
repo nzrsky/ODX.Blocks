@@ -22,7 +22,7 @@
 // THE SOFTWARE.
 
 #import "UIActionSheet+ODBlocks.h"
-#import <ODX.Core/ODAssociatedProperty.h>
+#import <ODAssociatedProperty.h>
 
 #if __BLOCKS__
 

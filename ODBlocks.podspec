@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '1.0'
   s.source_files = 'src/**/*'
   s.requires_arc = true
-  s.dependency 'ODX.Core', '~> 1.5'
+  s.dependency 'ODProperties', '~> 1.0'
 end

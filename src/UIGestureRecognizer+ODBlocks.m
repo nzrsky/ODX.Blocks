@@ -22,7 +22,7 @@
 // THE SOFTWARE.
 
 #import "UIGestureRecognizer+ODBlocks.h"
-#import <ODX.Core/ODAssociatedProperty.h>
+#import <ODAssociatedProperty.h>
 
 #if __BLOCKS__
 #if defined(__IPHONE_OS_VERSION_MIN_REQUIRED) && !defined(__WATCH_OS_VERSION_MIN_REQUIRED)
