@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "ODX.Blocks"
+  s.name         = "ODBlocks"
   s.version      = "1.5.2"
   s.summary      = "Utility classes for working with Objective-C blocks."
   s.homepage     = "https://github.com/Rogaven/ODX.Blocks"
